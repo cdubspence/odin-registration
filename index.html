@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="app.js" defer></script>
+    <title>Odin Registration Form</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pic"></div>
+        <div class='content'>
+            <h2>This is the form please sign up below and fill out some
+            of the more annoying parts of this form that are REQUIRED. Lorem 
+            ipsum dolor sit amet consectetur adipisicing elit. Quas, non assumenda
+            necessitatibus cum accusantium quod dignissimos quos nam a facere maxime 
+            facilis iusto officia architecto magnam sapiente! Quidem, eius voluptate?</h2>
+            <form>
+                <h2>Lets do this</h2>
+                <div class="col1">
+                    First Name <input type="text" required>
+                    Email <input type="email" required>
+                    Password <input type="password" class='pass' id="password" required>
+                </div>
+                <div class="col2">
+                    Last Name <input type="text" required>
+                    Phone # <input type="number" minlength="7" maxlength="10">
+                    Confirm Password <input type="password" class="pass" id="confirmPassword" required>
+                </div>
+                <p id="msg"></p>
+              </form>
+              <button onclick="checkForm()">Create Account</button>
+              
+              <p>Already have an account? <a href="#">Log In</a></p>
+          </div>
+    </div>
+    
+</body>
+</html>
